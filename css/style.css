@@ -1,0 +1,177 @@
+*{
+  font-family: 'Poppins', sans-serif;
+}
+body{
+  background-color: hsl(59, 1000%, 81%);
+}
+
+body, h1, h2, p{
+  margin: 0;
+  padding: 0;
+}
+
+.content{
+  max-width: 56.25rem;
+  margin: auto;
+  border: 1px solid hsla(201, 16%, 21%, 0.2);
+}
+
+h1, h2, p{
+  padding-left: 1rem;
+  text-align: justify;
+}
+
+header{
+  height: 40vh;
+  background-color: hsl(201, 16%, 21%);
+  display: flex;
+  box-shadow: 0 10px 30px black;
+}
+
+.photo{
+  height: 40vh;
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.photo img{
+  width: 9.6rem;
+  height: 9.6rem;
+  border-radius: 50%;
+  border: 5px solid white;
+  filter: grayscale(90%);
+}
+
+.title{
+  height: 40vh;
+  width: 60%;
+  display: flex;
+  align-items: center;
+}
+
+.title h1{
+  text-align: center;
+  font-size: 3rem;
+  color: hsl(0, 0%, 100%);
+  text-shadow: 2px 2px 10px white;
+}
+/*************header*********/
+main, .aside, .principal{
+  display: flex;
+  width: 100%;
+}
+
+.aside{
+  width: 40%;
+}
+
+.principal{
+  width: 60%;;
+}
+
+.aside, .principal{
+ flex-direction: column;
+}
+
+.contact, .skills, .languages, .hobbies{
+  width: 100%;
+  box-sizing: border-box;
+  padding: 1rem;
+  margin-bottom: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  box-shadow: 0 10px 120px black;
+}
+
+.contact h1, .skills h1, .languages h1, .hobbies h1, .contact p, .skills p, .languages p, .hobbies p{
+  color: hsl(0, 0%, 100%);
+  margin-bottom: 0.5rem;
+}
+
+.contact h1, .skills h1, .languages h1, .hobbies h1{
+  font-size: 1.5rem;
+}
+
+.contact p, .skills p, .languages p, .hobbies p{
+  font-size: 0.9rem;
+  color: hsla(0, 0%, 100%, 0.7);
+}
+
+.contact, .skills{
+  height: 18.75rem;
+}
+
+.languages, .hobbies{
+  height: 9.375rem;
+}
+
+.contact{
+  margin-top: 0.5rem;
+  background-color: hsl(0, 100%, 67%);
+}
+
+.languages{
+  background-color: hsl(65, 58%, 47%);
+}
+
+.skills{
+  background-color: hsl(199, 40%, 53%);
+}
+
+.hobbies{
+  background-color: hsl(25, 100%, 61%);
+}
+
+.principal{
+  background-color: hsla(0, 0%, 100%, 0.6);
+  margin-top: 0.5rem;
+  box-shadow: -1px 0 10px black;
+
+
+
+}
+
+.principal-text{
+  box-sizing: border-box;
+  height: 14.5625rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /*border-bottom: 1px solid hsla(201, 16%, 21%, 0.2);*/
+}
+
+
+.principal-text h1, .principal-text h2, .principal-text p{
+
+  padding-left: 2.5rem;
+}
+
+.principal-text p{
+  padding-right: 4rem;
+}
+
+.principal-text h1{
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+  margin-top: 1rem;
+}
+
+.principal-text h2{
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+  padding-right: 1rem;
+}
+
+.list{
+  width: 100%;
+  margin: auto;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.list p{
+  margin-top: 0.5rem;
+}
